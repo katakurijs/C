@@ -26,6 +26,8 @@ int *inverser(int *tab, int n) {
     return tab;
 }
 
+char *chaine;
+
 int *combine (int *tab1, int *tab2, int n1, int n2) {
     tab1 = (int*)realloc(tab1, (n1+n2)*sizeof(int));
     for (int i = n1+1; i < n2; i++) {
